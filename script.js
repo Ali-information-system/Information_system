@@ -6,7 +6,10 @@ function sumOfMultiples(a,b,l)
     sum=0;
     for(i = 0; i<l.length;i++)
     {
-        if(l[i] % a ==0)
+        if(l[i] % a ==0) || ( l[i] % b ==0)
+        (
+            <p>multiple of a and b.</p>
+            )
     }
     
 }
