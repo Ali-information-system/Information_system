@@ -1,1 +1,2 @@
-console.log("ali bdashah ko nhi samjh aa rhi")
+let userName = prompt("Please enter your name:");
+console.log("Hello, " + userName + "!");
