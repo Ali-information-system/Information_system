@@ -1,1 +1,1 @@
-
+console.log("ali bdashah ko nhi samjh aa rhi")
