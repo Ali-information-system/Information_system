@@ -13,3 +13,29 @@ function sumOfMultiples(a,b,l)
     }
     
 }
+######### Basket ##########
+let basketcost = (basket, prices)
+{
+    let totalcost = 0;
+    for(let product in basket)
+        {
+            if(prices.hasownproperty(product))
+            {
+                totalcost+ = basket[product] *prices[product]
+}
+        }
+    return totalcost;
+};
+let basket = { apple: 2, banana: 3};
+let prices = { apple: 1.5, banana: 0.5};
+
+console.log(basketcost(basket, prices));
+
+
+
+
+
+
+
+
+
